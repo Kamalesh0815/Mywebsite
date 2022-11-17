@@ -1,0 +1,97 @@
+    /* h1 {
+        text-align: center;
+    } */
+
+    .vl {
+        
+        border-style: hidden;
+        height: 300px;
+    }
+
+    .split {
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        padding-top: 200px;
+    }
+
+    .left {
+        left: 50px;
+    }
+
+    .splitr {
+        height: 30%;
+        width: 30%;
+        position: absolute;
+        top: 0;
+        padding-top: 175px;
+        right: 30;
+
+    }
+
+    .splitr2 {
+        height: 30%;
+        width: 30%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 500px;
+        right: 30;
+
+    }
+
+    .split3 {
+        height: 30%;
+        width: 50%;
+        position: absolute;
+    }
+
+    .split3i {
+        width: 30%;
+        height: 25%;
+        position: absolute;
+        padding-left: 1000px;
+        padding-top: 10px;
+
+    }
+
+    body {
+        background-color: lightblue;
+        color: black;
+    }
+
+    .column{
+        flex: 33.33%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    
+    .row{
+        display: flex;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: lightgreen;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      
+      
+      .Navboxcolor {
+        background-color: black;
+        color: white;
+        margin:10px ;
+      }
+
