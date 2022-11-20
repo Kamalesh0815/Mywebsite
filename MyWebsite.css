@@ -1,97 +1,58 @@
-    /* h1 {
-        text-align: center;
-    } */
+.navbar {
+    display: flex;
+    background-color: blueviolet;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
 
-    .vl {
-        
-        border-style: hidden;
-        height: 300px;
-    }
+}
 
-    .split {
-        height: 100%;
-        width: 50%;
-        position: absolute;
-        top: 0;
-        padding-top: 200px;
-    }
+a {
+    color: black;
+    text-decoration: none;
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
 
-    .left {
-        left: 50px;
-    }
+img {
+    float: right;
+    clear: both;
+    margin-left: 15px;
+}
 
-    .splitr {
-        height: 30%;
-        width: 30%;
-        position: absolute;
-        top: 0;
-        padding-top: 175px;
-        right: 30;
+.imageh {
+    height: 400px;
+}
 
-    }
 
-    .splitr2 {
-        height: 30%;
-        width: 30%;
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-        padding-top: 500px;
-        right: 30;
 
-    }
 
-    .split3 {
-        height: 30%;
-        width: 50%;
-        position: absolute;
-    }
+.grid-con {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    background-color: red;
+    animation-name: bgc;
+    animation-duration: 15s;
+  }
 
-    .split3i {
-        width: 30%;
-        height: 25%;
-        position: absolute;
-        padding-left: 1000px;
-        padding-top: 10px;
+  
 
-    }
 
-    body {
-        background-color: lightblue;
-        color: black;
-    }
+@keyframes bgc {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 
-    .column{
-        flex: 33.33%;
-        padding: 15px;
-        text-align: center;
-    }
-
+.grid-item {
+    text-align: center;
     
-    .row{
-        display: flex;
-    }
+  }
 
-    .topnav {
-        overflow: hidden;
-        background-color: lightgreen;
-      }
-      
-      .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      
-      
-      
-      .Navboxcolor {
-        background-color: black;
-        color: white;
-        margin:10px ;
-      }
-
+  video {
+          width: 100%;
+          height: 55%; 
+     }
